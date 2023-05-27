@@ -4,7 +4,7 @@ Have you ever started your data analysis and ended up with repetitive code? Repe
 
 Our colleague Brenda, a product analyst, has written a script to pull Net Promotor Score (NPS) survey data from multiple sources to calculate the NPS score. This code works well, but it violates coding best practices, including Don't Repeat Yourself (DRY). Let's take a look at her code and write some functions for Brenda! 
 ## Contents
-1. **DRY: Don't repeat yourself:**
+1. **DRY: Don't repeat yourself:** Write a function that takes an NPS CSV file and the source type to create a DataFrame with a column specifying the source type.
 2. **Verifying the files with the "with" keyword:**
 3. **Putting it together with nested functions:**
 4. **Detractors, Passives, and Promoters:**
