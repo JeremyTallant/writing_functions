@@ -8,7 +8,7 @@ Our colleague Brenda, a product analyst, has written a script to pull Net Promot
 2. **Verifying the files with the "with" keyword:** Write a function to check if a CSV file has these three columns: `response_date`, `user_id`, and `nps_rating`.
 3. **Putting it together with nested functions:** Write a function that uses `check_csv()` and `convert_csv_to_df()` to convert valid files into DataFrames and combines the resulting DataFrames into one DataFrame.
 4. **Detractors, Passives, and Promoters:** Write a function `categorize_nps` that classifies a rating, `x`, into one of four categories: detractor, passives, promoters, and invalid.
-5. **Applying our function to a DataFrame:**
+5. **Applying our function to a DataFrame:** Write a new line of code to `convert_csv_to_df()` so that there is a column for each rating's NPS category.
 6. **Calculating the Net Promoter Score:**
 7. **Breaking down NPS by source:**
 8. **Adding docstrings:**
