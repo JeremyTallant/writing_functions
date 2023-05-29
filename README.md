@@ -10,5 +10,5 @@ Our colleague Brenda, a product analyst, has written a script to pull Net Promot
 4. **Detractors, Passives, and Promoters:** Write a function `categorize_nps` that classifies a rating, `x`, into one of four categories: detractor, passives, promoters, and invalid.
 5. **Applying our function to a DataFrame:** Write a new line of code to `convert_csv_to_df()` so that there is a column for each rating's NPS category.
 6. **Calculating the Net Promoter Score:** Write a new function called `calculate_nps()` that calculates the NPS score of a DataFrame with the column `nps_group`.
-7. **Breaking down NPS by source:**
+7. **Breaking down NPS by source:** Write a function that calculates the individual NPS score for each source type in the column `source`.
 8. **Adding docstrings:**
